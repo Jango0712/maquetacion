@@ -73,6 +73,7 @@ h1{
 .info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 10px 100px 100px 100px;
     font-size: 150%;
     
