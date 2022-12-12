@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family:Poppins, "Arial Black", Gadget, sans-serif;
-    font-style: normal;
+    font-family:'Poppins', sans-serif;
 
 }
 
@@ -31,17 +30,16 @@
 }
 
 .link{
-    color: white;
+    color: rgb(127, 125, 125);
     margin: 60px ;
     font-size: 20px;
     text-decoration: none;
-    
+    transition: all .3s;
 }
 
 .link:hover{
- background-color: black
+ color: white;
 }
-
 .art{
     display: flex;
     flex-direction: row;
@@ -65,7 +63,7 @@
 }
 
 .descripcion{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .container{
@@ -91,11 +89,13 @@
 }
 
 .tcurso{
-    font-size: 50px;
+    font-size: 40px;
+    
 }
 
 .info_curso{
-    letter-spacing: 0.5px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .foot{
@@ -103,9 +103,8 @@
     flex-direction: column;
     height: 200px;
     width: 100%;
-    background-color:blue ; 
+    background-color:rgb(0, 8, 251) ; 
     align-items: center;
-   
 }
 
 .fh{

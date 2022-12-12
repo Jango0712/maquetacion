@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family:Poppins, "Arial Black", Gadget, sans-serif;
-    font-style: normal;
+    font-family:'Poppins', sans-serif;
 
 }
 
@@ -75,7 +74,7 @@
     align-items:center;
     height: 800px;
     width: 500px;
-    margin: 100px;
+    margin: 150px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.606);
@@ -123,8 +122,13 @@
 .profesion{
     color: white;
 }
+.h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
 
 .info{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }

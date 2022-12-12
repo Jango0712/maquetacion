@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family:Poppins, "Arial Black", Gadget, sans-serif;
-    font-style: normal;
+    font-family:'Poppins', sans-serif;
 
 }
 
@@ -31,15 +30,15 @@
 }
 
 .link{
-    color: white;
+    color: rgb(127, 125, 125);
     margin: 60px ;
     font-size: 20px;
     text-decoration: none;
-    
+    transition: all .3s;
 }
 
 .link:hover{
- background-color: blue;
+ color: white;
 }
 
 .img{
