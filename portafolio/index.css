@@ -242,6 +242,52 @@ margin-left: 300px;
     align-items: center;
 }
 
+/* section proyecto */
+
+.section_proyectos{
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 800px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 5px rgba(160, 160, 160, 0.606);
+    margin: 50px 0px 0px 0px;
+}
+
+.img_container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img_carta{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 7px solid #f605ff;
+}
+
+.ciudad{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.parrafo{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
 /* form section */
 
 .form_page{
