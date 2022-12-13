@@ -287,6 +287,13 @@ margin-left: 300px;
     font-size: 18px;
     letter-spacing: 1px;
 }
+.link{
+   
+    margin: 60px ;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .3s;
+}
 
 /* form section */
 
