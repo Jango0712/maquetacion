@@ -345,3 +345,21 @@ margin-left: 300px;
     width:300px;
     height: 100px;
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color:black ; 
+    align-items: center;
+   
+}
+
+.fh{
+    color: var(--pink);
+    font-size: 25px;
+    margin: 40px;
+}
